@@ -5,5 +5,6 @@
   "GO_TO_DASHBOARD": "GEHE ZUM DASHBOARD",
   "Change_Language": "Sprache ändern",
   "Go_Back": "Geh zurück",
-  "image_desc": "Oben ist ein zufälliges Bild zu sehen. Erhalten Sie ein unscharfes Bild, indem Sie Unschärfe an das Ende der URL anhängen."
+  "image_desc": "Oben ist ein zufälliges Bild zu sehen. Erhalten Sie ein unscharfes Bild, indem Sie Unschärfe an das Ende der URL anhängen.",
+  "lorem_iqsum": "Lorem ipsum, oder Lipsum, wie es manchmal genannt wird, ist Blindtext, der beim Layouten von Druck-, Grafik- oder Webdesigns verwendet wird. Die Passage wird einem unbekannten Schriftsetzer im 15. Jahrhundert zugeschrieben, der vermutlich Teile von Ciceros De Finibus Bonorum et Malorum für die Verwendung in einem Musterbuch verschlüsselt hat."
 }

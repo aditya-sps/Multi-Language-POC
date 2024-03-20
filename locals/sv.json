@@ -5,5 +5,6 @@
   "GO_TO_DASHBOARD": "GÅ TILL INSTRUMENTPANELEN",
   "Change_Language": "Ändra språk",
   "Go_Back": "Gå tillbaka",
-  "image_desc": "Ovan bildas en slumpmässig bild. Få en suddig bild genom att lägga till oskärpa i slutet av webbadressen."
+  "image_desc": "Ovan bildas en slumpmässig bild. Få en suddig bild genom att lägga till oskärpa i slutet av webbadressen.",
+  "lorem_iqsum": "Lorem ipsum, eller lipsum som det ibland kallas, är dummytext som används för att lägga ut tryck, grafik eller webbdesign. Passagen tillskrivs en okänd sättare på 1400-talet som tros ha förvanskat delar av Ciceros De Finibus Bonorum et Malorum för användning i en typprovbok."
 }

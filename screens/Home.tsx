@@ -18,6 +18,7 @@ const Home = () => {
         <Text style={{marginTop: 20, fontSize: 18}}>
           {t('how_are_you_doing')}
         </Text>
+        <Text style={{marginTop: 20, fontSize: 18}}>{t('lorem_iqsum')}</Text>
       </View>
       <TouchableOpacity
         onPress={() => navigation.navigate('Dashboard' as never)}

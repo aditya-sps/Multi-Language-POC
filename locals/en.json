@@ -5,5 +5,6 @@
   "GO_TO_DASHBOARD": "GO TO DASHBOARD",
   "Change_Language": "Change Language",
   "Go_Back": "Go Back",
-  "image_desc": "Above is a random image formed. Get a blurred image by appending blur to the end of the url."
+  "image_desc": "Above is a random image formed. Get a blurred image by appending blur to the end of the url.",
+  "lorem_iqsum": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book."
 }

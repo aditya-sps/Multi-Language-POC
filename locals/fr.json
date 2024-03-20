@@ -5,5 +5,6 @@
   "GO_TO_DASHBOARD": "ALLER AU TABLEAU DE BORD",
   "Change_Language": "Changer de langue",
   "Go_Back": "Retourner",
-  "image_desc": "Ci-dessus, une image aléatoire formée. Obtenez une image floue en ajoutant un flou à la fin de l'URL."
+  "image_desc": "Ci-dessus, une image aléatoire formée. Obtenez une image floue en ajoutant un flou à la fin de l'URL.",
+  "lorem_iqsum": "Lorem ipsum, ou lipsum comme on l'appelle parfois, est un texte factice utilisé dans la mise en page de conceptions imprimées, graphiques ou Web. Le passage est attribué à un compositeur inconnu du XVe siècle qui aurait brouillé des parties du De Finibus Bonorum et Malorum de Cicéron pour les utiliser dans un livre de spécimens de caractères."
 }
