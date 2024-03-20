@@ -1,4 +1,11 @@
-import {Button, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {
+  Button,
+  Image,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import React, {useContext} from 'react';
 import {useTranslation} from 'react-i18next';
 import {useNavigation} from '@react-navigation/native';
@@ -13,7 +20,13 @@ const Dashboard = () => {
   return (
     <SafeAreaView style={{flex: 1, paddingHorizontal: 20}}>
       <View style={{flex: 1}}>
-        <Text>Dashboard</Text>
+        <Image
+          source={{uri: 'https://picsum.photos/200/300'}}
+          style={{height: 200}}
+          borderRadius={5}
+          resizeMode={'stretch'}
+        />
+        <Text style={{marginTop: 10}}>{t('image_desc')}</Text>
       </View>
       <TouchableOpacity
         onPress={() => navigation.goBack()}

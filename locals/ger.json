@@ -4,5 +4,6 @@
   "how_are_you_doing": "Wie geht es dir?",
   "GO_TO_DASHBOARD": "GEHE ZUM DASHBOARD",
   "Change_Language": "Sprache ändern",
-  "Go_Back": "Geh zurück"
+  "Go_Back": "Geh zurück",
+  "image_desc": "Oben ist ein zufälliges Bild zu sehen. Erhalten Sie ein unscharfes Bild, indem Sie Unschärfe an das Ende der URL anhängen."
 }

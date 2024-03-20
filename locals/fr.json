@@ -4,5 +4,6 @@
   "how_are_you_doing": "Comment allez-vous?",
   "GO_TO_DASHBOARD": "ALLER AU TABLEAU DE BORD",
   "Change_Language": "Changer de langue",
-  "Go_Back": "Retourner"
+  "Go_Back": "Retourner",
+  "image_desc": "Ci-dessus, une image aléatoire formée. Obtenez une image floue en ajoutant un flou à la fin de l'URL."
 }

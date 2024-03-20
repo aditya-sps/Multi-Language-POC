@@ -4,5 +4,6 @@
   "how_are_you_doing": "How are you doing?",
   "GO_TO_DASHBOARD": "GO TO DASHBOARD",
   "Change_Language": "Change Language",
-  "Go_Back": "Go Back"
+  "Go_Back": "Go Back",
+  "image_desc": "Above is a random image formed. Get a blurred image by appending blur to the end of the url."
 }
