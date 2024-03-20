@@ -6,29 +6,37 @@
  */
 
 import {NavigationContainer} from '@react-navigation/native';
-import React from 'react';
-import {StyleSheet, useColorScheme} from 'react-native';
-
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {createStackNavigator} from '@react-navigation/stack';
-import Home from './screens/Home';
+import React, {createContext, useState} from 'react';
+import {StyleSheet} from 'react-native';
 import 'react-native-gesture-handler';
+import './services/i18next';
+import Navigation from './Navigation';
+import Languages from './components/Languages';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {useTranslation} from 'react-i18next';
 
-const Stack = createStackNavigator();
+export const MyContext = createContext<any>({});
 
 function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+  const [showModal, setShowModal] = useState(false);
+  const {i18n} = useTranslation();
 
   return (
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="Home" component={Home} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <MyContext.Provider value={{showModal, setShowModal}}>
+      <SafeAreaProvider>
+        <NavigationContainer>
+          <Navigation />
+        </NavigationContainer>
+        <Languages
+          modalVisible={showModal}
+          onItemPress={(value: string) => {
+            i18n.changeLanguage(value);
+            setShowModal(false);
+          }}
+          onClose={() => setShowModal(false)}
+        />
+      </SafeAreaProvider>
+    </MyContext.Provider>
   );
 }
 

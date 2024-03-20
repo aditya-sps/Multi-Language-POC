@@ -1,11 +1,11 @@
 import {Button, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React, {useContext} from 'react';
-import {SafeAreaView} from 'react-native-safe-area-context';
 import {useTranslation} from 'react-i18next';
-import {MyContext} from '../App';
 import {useNavigation} from '@react-navigation/native';
+import {MyContext} from '../App';
+import {SafeAreaView} from 'react-native-safe-area-context';
 
-const Home = () => {
+const Dashboard = () => {
   const {setShowModal} = useContext(MyContext);
   const navigation = useNavigation();
   const {t} = useTranslation();
@@ -13,14 +13,10 @@ const Home = () => {
   return (
     <SafeAreaView style={{flex: 1, paddingHorizontal: 20}}>
       <View style={{flex: 1}}>
-        <Text>{t('hi')}</Text>
-        <Text style={{marginTop: 10, fontSize: 18}}>{t('welcome')}</Text>
-        <Text style={{marginTop: 20, fontSize: 18}}>
-          {t('how_are_you_doing')}
-        </Text>
+        <Text>Dashboard</Text>
       </View>
       <TouchableOpacity
-        onPress={() => navigation.navigate('Dashboard' as never)}
+        onPress={() => navigation.goBack()}
         style={{
           backgroundColor: 'black',
           paddingVertical: 10,
@@ -28,13 +24,13 @@ const Home = () => {
           borderRadius: 6,
           marginBottom: 5,
         }}>
-        <Text style={{color: 'white'}}>{t('GO_TO_DASHBOARD')}</Text>
+        <Text style={{color: 'white'}}>{t('Go_Back')}</Text>
       </TouchableOpacity>
       <Button title={t('Change_Language')} onPress={() => setShowModal(true)} />
     </SafeAreaView>
   );
 };
 
-export default Home;
+export default Dashboard;
 
 const styles = StyleSheet.create({});
